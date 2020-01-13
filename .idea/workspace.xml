@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="954b17dc-6b27-4d8c-81b7-fd9e12508281" name="Default Changelist" comment="" />
+    <list default="true" id="954b17dc-6b27-4d8c-81b7-fd9e12508281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PageObjects/blmoPages/LMO_LogindexPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/blmoPages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/locators/Locator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObjects/locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestBase/EnvironmentSetup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestScripts/userAdminScripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestScripts/userLogindexScripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestScripts/userLogindexScripts/test_userLogindex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tempTest/Basepathcheck.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tempTest/Usertestcase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/tempTest/Usertestcase.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +28,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
   <component name="ProjectId" id="1RgsGuw6s2wgO2sgvNSF5QyoJVI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -37,8 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testBase.TestBase">
-    <configuration name="testDriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for Usertestcase.UserManagement_BLMO">
+    <configuration name="Basepathcheck" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Auto_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -46,17 +66,45 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestScripts/testPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tempTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestScripts/testPractice/testDriver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/tempTest/Basepathcheck.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for EnvironmentSetup.EnvironmentSetup" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Auto_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestBase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;EnvironmentSetup.EnvironmentSetup&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for Usertestcase.UserManagement_BLMO" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Auto_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tempTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Usertestcase.UserManagement_BLMO&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for Usertestcase.UserManagement_BLMO.test_001_createUser" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -73,40 +121,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testBase.TestBase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_userLogindex.Scripts_userLogin.test_userAdmin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Auto_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestBase/testBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestScripts/userLogindexScripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testBase.TestBase&quot;" />
+      <option name="_new_target" value="&quot;test_userLogindex.Scripts_userLogin.test_userAdmin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in Usertestcase.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="Auto_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/tempTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/tempTest/Usertestcase.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for testBase.TestBase" />
+        <item itemvalue="Python tests.Unittests for Usertestcase.UserManagement_BLMO" />
+        <item itemvalue="Python.Basepathcheck" />
+        <item itemvalue="Python tests.Unittests for test_userLogindex.Scripts_userLogin.test_userAdmin" />
+        <item itemvalue="Python tests.Unittests for EnvironmentSetup.EnvironmentSetup" />
         <item itemvalue="Python tests.Unittests for Usertestcase.UserManagement_BLMO.test_001_createUser" />
-        <item itemvalue="Python tests.Unittests in Usertestcase.py" />
-        <item itemvalue="Python.testDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -122,5 +157,18 @@
       <updated>1570099980617</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
